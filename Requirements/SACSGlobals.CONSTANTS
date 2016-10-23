@@ -1,4 +1,4 @@
-constants SCSConstants[
+constants SACSConstants[
  
 	val MaxWeight = 1.2 kg
 	val PowerBudget = 2.5 W
