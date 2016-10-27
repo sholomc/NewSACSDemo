@@ -1,6 +1,20 @@
 package IntegratedSACS
 public
-	with SEI;
+	with SEI,
+         PhysicalParts;
+	
+	system ControlSystem
+		
+	end ControlSystem;
+
+	system implementation ControlSystem.singletier0
+		subcomponents
+			
+			Hardware: system PhysicalParts::main_board.single;
+	end ControlSystem.singletier0;
+	
+	
+ 
 	
 	system SACS -- sensor control system template
   		properties
