@@ -26,5 +26,11 @@ use constants SACSConstants
 		
 	]
 	
-
+		requirement Power_R1
+	[
+		description this " power utilization shall not exceed 60% of ThroughputCapacity"
+		rationale "Processor budget is fixed by size weight restrictions"
+		mitigates "the risk of contention for increased functionality"
+		
+	]
 ]
