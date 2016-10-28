@@ -26,5 +26,12 @@ use constants SACSConstants
 		
 	]
 	
-
+	requirement Processor_R1
+	[
+		description this " throughput utilization shall not exceed 60% of ThroughputCapacity"
+		rationale "Processor budget is fixed by size weight restrictions"
+		mitigates "the risk of contention for increased functionality"
+		
+	]	
+	
 ]
