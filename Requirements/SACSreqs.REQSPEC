@@ -1,9 +1,9 @@
 system requirements SACSreqs:"SCS" for IntegratedSCS::SCS
 use constants SACSConstants  
 [
-	val WeightLimit = 1.8 kg
+	val WeightLimit = 2.0 kg
 	val BandwidthCapacity = 0.100 mbytesps
-	val ThroughputCapacity = 1.2  mips
+	val ThroughputCapacity = 2.2  mips
 	val PowerCapacity = 4.5
 	
 		
